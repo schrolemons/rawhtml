@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>内部页面示例</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', 'Noto Sans SC', system-ui, sans-serif;
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #312e81 100%);
+      color: #e2e8f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .card {
+      text-align: center;
+      padding: 3rem;
+      background: rgba(255,255,255,0.05);
+      border-radius: 24px;
+      border: 1px solid rgba(255,255,255,0.1);
+      backdrop-filter: blur(12px);
+    }
+    h1 { font-size: 2.5rem; margin-bottom: 1rem; color: #a5b4fc; }
+    p  { font-size: 1.2rem; opacity: 0.7; margin-bottom: 0.5rem; }
+    .url { font-family: monospace; background: rgba(99,102,241,0.2); padding: 0.5rem 1rem; border-radius: 8px; color: #c7d2fe; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>这是一个内部页面</h1>
+    <p>通过 Hexo 容器标签 <code>{ rawhtml src="..." }</code> 加载</p>
+    <p>相对路径示例：</p>
+    <p class="url">/demo/some-page.html</p>
+  </div>
+</body>
+</html>

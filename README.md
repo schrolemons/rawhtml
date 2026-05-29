@@ -1,7 +1,7 @@
 # Hexo 内嵌 HTML 容器 — `{% rawhtml %}` 标签插件
 
 在 Hexo 的 Markdown 文章中任意位置、任意数量地嵌入原生 HTML 页面。每个 HTML 会渲染在独立容器中，包含标题栏和"扩大"按钮（全屏查看），与周围的 Markdown 内容无缝共存。
-
+在线演示：[功能演示](world.sch-nie.com/test-raw-html/)
 ---
 
 ## 目录
